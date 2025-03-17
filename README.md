@@ -2,7 +2,7 @@
 
 Hello everyone!
 
-My name is Eki Zulfar Rachman, and in this opportunity, I would like to share a portfolio website project that I have developed.
+
 
 ## Tech Stack Used:
 - ReactJS
