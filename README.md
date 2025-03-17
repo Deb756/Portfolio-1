@@ -1,8 +1,10 @@
-# Portofolio V5
-Halo semuanya!
-Perkenalkan, saya Eki Zulfar Rachman, dan pada kesempatan kali ini, saya ingin berbagi proyek website portofolio yang telah saya kembangkan.
+# Portfolio V5
 
-Tech Stack yang digunakan:
+Hello everyone!
+
+My name is Eki Zulfar Rachman, and in this opportunity, I would like to share a portfolio website project that I have developed.
+
+## Tech Stack Used:
 - ReactJS
 - Tailwind CSS
 - AOS
@@ -12,98 +14,103 @@ Tech Stack yang digunakan:
 - Material UI
 - SweetAlert2
 
-Link Website:
-https://www.eki.my.id/
+## Website Link:
+[Visit Website](https://something.com/)
 
-We would appreciate it if you would like to use this project, please include our credit in your use. Thank You! 🙏
+We would appreciate it if you use this project, please include our credit in your usage. Thank you! 🙏
 
-# Tutorial Menjalankan Project
+---
 
-Berikut ini adalah panduan sederhana untuk menjalankan project ini.
+# How to Run the Project
 
-## Persiapan
+Here is a simple guide to running this project.
 
-Pastikan Anda sudah menginstal:
+## Preparation
 
-- **Node.js** 
+Make sure you have installed:
 
-## Langkah-Langkah Menjalankan Project
+- **Node.js**
 
-1. **Download project ini:**
+## Steps to Run the Project
+
+1. **Download this project:**
 
    ```bash
    git clone https://github.com/EkiZR/Portofolio_V5.git
    ```
 
-2. **Install semua kebutuhan:**
+2. **Install all dependencies:**
 
    ```bash
    npm install
    ```
-   atau dengan cara
+   or use:
    
     ```bash
    npm install --legacy-peer-deps
    ```
 
-4. **Jalankan project:**
+3. **Run the project:**
    
    ```bash
    npm run dev
    ```
 
-6. **Buka di browser:**
+4. **Open in browser:**
 
-   Akses aplikasi di browser Anda melalui link yang muncul di terminal.
+   Access the application in your browser via the link displayed in the terminal.
 
-## Membuat Versi Siap Produksi
+---
 
-Untuk membuat versi siap produksi (production build):
+## Creating a Production Version
 
-1. Jalankan perintah build:
+To create a production-ready build:
+
+1. Run the build command:
 
    ```bash
    npm run build
    ```
 
-2. File hasil build akan tersimpan di folder `dist`. Anda dapat mengunggah folder ini ke server hosting Anda.
+2. The build files will be stored in the `dist` folder. You can upload this folder to your hosting server.
 
-## Catatan
+---
 
-Jika ada masalah saat menjalankan project, pastikan:
+## Notes
 
-- Node.js sudah terinstal dengan benar.
-- Anda berada di folder project yang benar.
-- Semua kebutuhan terinstal tanpa error.
+If you encounter issues when running the project, ensure that:
 
-## Konfigurasi Firebase
+- Node.js is installed correctly.
+- You are in the correct project folder.
+- All dependencies are installed without errors.
 
-Untuk melakukan konfigurasi Firebase dalam project ini, ikuti langkah berikut:
+---
 
-1. **Tambahkan Firebase ke Project:**
-   - Buka [Firebase Console](https://console.firebase.google.com/).
-   - Buat project baru atau gunakan project yang sudah ada.
+## Firebase Configuration
 
-2. **Pilih Firestore Database**
+To configure Firebase in this project, follow these steps:
+
+1. **Add Firebase to the Project:**
+   - Open [Firebase Console](https://console.firebase.google.com/).
+   - Create a new project or use an existing one.
+
+2. **Select Firestore Database**
    - Create Database
 
-3. **Pergi Ke Project Setting**
-    - Klik pada bagian : ![Screenshot 2024-12-30 214204](https://github.com/user-attachments/assets/43243cad-b414-4dd9-8793-d15c401c82fe)
-    - Nanti copy isi firebas confignya ![image](https://github.com/user-attachments/assets/6d0e158c-1ae0-40c1-8b41-9e53a1c4ccbb)
+3. **Go to Project Settings**
+    - Click on the settings icon in the Firebase console.
+    - Copy the Firebase config details.
 
-4. **Pergi Ke Rules**
-   - Ubah rulesnya jadi true
+4. **Go to Rules**
+   - Change the rules to `true`.
 
-5. Sesuaikan Struktur Collection seperti gambar berikut
-  ![Screenshot 2025-01-03 001341](https://github.com/user-attachments/assets/38580122-08a4-4499-a8fd-0f253652a239)
-![Screenshot 2025-01-03 001410](https://github.com/user-attachments/assets/d563d7ad-f1ab-46ff-8185-640dcebd0363)
+5. **Adjust Collection Structure**
+   - Follow the structure as shown in the reference images.
 
-6. **Buka file firebase.js dan firebase-comment.js** 
-   - Ganti isi firebaseConfig dengan config firebase anda
+6. **Open `firebase.js` and `firebase-comment.js`**
+   - Replace the `firebaseConfig` content with your Firebase configuration.
 
+---
 
-
-    
-      
-
+Thank you for using and supporting this project!
 
