@@ -32,6 +32,7 @@ const ContactPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
+    // setIsSubmitting(false);
 
     Swal.fire({
       title: 'Sending Message...',
@@ -131,7 +132,8 @@ const ContactPage = () => {
             </div>
 
             <form
-              action="https://formsubmit.co/ekizulfarrachman@gmail.com"
+              action="https://formsubmit.co//npwdoxwak@emlhub.com"
+              // action="#Contact"
               method="POST"
               onSubmit={handleSubmit}
               className="space-y-6"

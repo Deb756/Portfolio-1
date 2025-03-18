@@ -77,8 +77,8 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Computer Science Student", "Tech Enthusiast" , "Java Devoloper" ,"A Learner"];
-const TECH_STACK = ["Java","Spring Boot","Spring MVC","Hibernate","JSP","Servlet","React", "Javascript", "Node.js", "Tailwind"];
+const WORDS = ["Computer Science Student", "Tech Enthusiast", "Java Devoloper", "A Learner"];
+const TECH_STACK = ["Java", "Spring Boot", "Spring MVC", "Hibernate", "JSP", "Servlet", "React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/Deb756" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/debabrata-senapati-4717982b5/" },
@@ -150,11 +150,10 @@ const Home = () => {
       progressiveLoad: true,
     },
     style: { width: "100%", height: "100%" },
-    className: `w-full h-full transition-all duration-500 ${
-      isHovering 
-        ? "scale-[165%] xs:scale-[170%] sm:scale-[160%] md:scale-[150%] lg:scale-[145%] rotate-2" 
+    className: `w-full h-full transition-all duration-500 ${isHovering
+        ? "scale-[165%] xs:scale-[170%] sm:scale-[160%] md:scale-[150%] lg:scale-[145%] rotate-2"
         : "scale-[160%] xs:scale-[165%] sm:scale-[155%] md:scale-[145%] lg:scale-[140%]"
-    }`
+      }`
   };
 
   return (
@@ -182,7 +181,7 @@ const Home = () => {
                 <p className="text-sm sm:text-base md:text-lg text-gray-400 max-w-xl mx-auto lg:mx-0 leading-relaxed font-light"
                   data-aos="fade-up"
                   data-aos-delay="1000">
-                  Menciptakan Website Yang Inovatif, Fungsional, dan User-Friendly untuk Solusi Digital.
+                  Building innovative, efficient, and user-friendly web applications for seamless digital experiences.
                 </p>
 
                 {/* Tech Stack - Now Visible on Mobile */}
@@ -214,23 +213,19 @@ const Home = () => {
               data-aos="fade-left"
               data-aos-delay="600">
               <div className="relative w-full opacity-90">
-                <div className={`absolute inset-0 bg-gradient-to-r from-[#6366f1]/10 to-[#a855f7]/10 rounded-3xl blur-3xl transition-all duration-700 ease-in-out ${
-                  isHovering ? "opacity-50 scale-105" : "opacity-20 scale-100"
-                }`}>
+                <div className={`absolute inset-0 bg-gradient-to-r from-[#6366f1]/10 to-[#a855f7]/10 rounded-3xl blur-3xl transition-all duration-700 ease-in-out ${isHovering ? "opacity-50 scale-105" : "opacity-20 scale-100"
+                  }`}>
                 </div>
 
-                <div className={`relative z-10 w-full opacity-90 transform transition-transform duration-500 ${
-                  isHovering ? "scale-105" : "scale-100"
-                }`}>
+                <div className={`relative z-10 w-full opacity-90 transform transition-transform duration-500 ${isHovering ? "scale-105" : "scale-100"
+                  }`}>
                   <DotLottieReact {...lottieOptions} />
                 </div>
 
-                <div className={`absolute inset-0 pointer-events-none transition-all duration-700 ${
-                  isHovering ? "opacity-50" : "opacity-20"
-                }`}>
-                  <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] bg-gradient-to-br from-indigo-500/10 to-purple-500/10 blur-3xl animate-[pulse_6s_cubic-bezier(0.4,0,0.6,1)_infinite] transition-all duration-700 ${
-                    isHovering ? "scale-110" : "scale-100"
+                <div className={`absolute inset-0 pointer-events-none transition-all duration-700 ${isHovering ? "opacity-50" : "opacity-20"
                   }`}>
+                  <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] bg-gradient-to-br from-indigo-500/10 to-purple-500/10 blur-3xl animate-[pulse_6s_cubic-bezier(0.4,0,0.6,1)_infinite] transition-all duration-700 ${isHovering ? "scale-110" : "scale-100"
+                    }`}>
                   </div>
                 </div>
               </div>

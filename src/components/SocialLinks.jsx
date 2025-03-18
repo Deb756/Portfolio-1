@@ -61,7 +61,7 @@ const socialLinks = [
 const SocialLinks = () => {
   const linkedIn = socialLinks.find(link => link.isPrimary);
   const otherLinks = socialLinks.filter(link => !link.isPrimary);
-  const [instagram, youtube, github, tiktok] = otherLinks;
+  const [instagram, youtube, github, discord] = otherLinks;
 
   return (
     <div className="w-full bg-gradient-to-br from-white/10 to-white/5 rounded-2xl p-6 py-8 backdrop-blur-xl">
@@ -182,7 +182,7 @@ const SocialLinks = () => {
 
         {/* Third Row - GitHub & TikTok */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {[github, tiktok].map((link) => (
+          {[github, discord].map((link) => (
             <a
               key={link.name}
               href={link.url}

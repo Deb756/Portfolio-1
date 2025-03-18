@@ -182,7 +182,7 @@ export default function FullWidthTabs() {
 
   // Static certificate data - replace with your own certificates
   const certificates = [
-    { Img: "certificate-web-dev.jpg", Title: "Full Stack Web Development", Issuer: "Udemy" },
+    { Img: "Photo1.png", Title: "Full Stack Web Development", Issuer: "Udemy" },
     { Img: "certificate-react.jpg", Title: "React - The Complete Guide", Issuer: "Coursera" },
     { Img: "certificate-javascript.jpg", Title: "Advanced JavaScript", Issuer: "freeCodeCamp" },
     { Img: "certificate-nodejs.jpg", Title: "Node.js Masterclass", Issuer: "Udemy" },
