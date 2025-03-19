@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ExternalLink, ArrowRight } from 'lucide-react';
+import { ExternalLink, ArrowRight, Code } from 'lucide-react';
 
-const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
-  // Handle kasus ketika ProjectLink kosong
+const CardProject = ({ Img, Title, Description, Link: ProjectLink, id, TechStack }) => {
+  // Handle cases when ProjectLink or id is empty
   const handleLiveDemo = (e) => {
     if (!ProjectLink) {
-      console.log("ProjectLink kosong");
+      console.log("ProjectLink Not found");
       e.preventDefault();
       alert("Live demo link is not available");
     }
@@ -14,13 +14,12 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
   
   const handleDetails = (e) => {
     if (!id) {
-      console.log("ID kosong");
+      console.log("ID Notfound");
       e.preventDefault();
       alert("Project details are not available");
     }
   };
   
-
   return (
     <div className="group relative w-full">
             
@@ -32,7 +31,7 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
             <img
               src={Img}
               alt={Title}
-              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+              className="w-full h-[270px] object-cover transform group-hover:scale-105 transition-transform duration-500"
             />
           </div>
           
@@ -45,10 +44,24 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
               {Description}
             </p>
             
+            {/* Display TechStack if available */}
+            {TechStack && TechStack.length > 0 && (
+              <div className="flex flex-wrap gap-2 pt-2">
+                {TechStack.map((tech, index) => (
+                  <span 
+                    key={index} 
+                    className="px-2 py-1 text-xs font-medium rounded-md bg-white/10 text-blue-300 border border-blue-500/30"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            )}
+            
             <div className="pt-4 flex items-center justify-between">
               {ProjectLink ? (
                 <a
-                href={ProjectLink || "#"}
+                  href={ProjectLink || "#"}
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={handleLiveDemo}
@@ -61,8 +74,6 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
                 <span className="text-gray-500 text-sm">Demo Not Available</span>
               )}
               
-     
-
               {id ? (
                 <Link
                   to={`/project/${id}`}

@@ -124,7 +124,7 @@ const AboutPage = () => {
       (today < new Date(today.getFullYear(), startDate.getMonth(), startDate.getDate()) ? 1 : 0);
 
     return {
-      totalProjects: "20",
+      totalProjects: "30",
       totalCertificates: "0",
       YearExperience: "0"
     };
@@ -218,7 +218,7 @@ const AboutPage = () => {
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
-              <a href="https://docs.google.com/document/d/115cNR9-gE3snSlkJgg5L1Hu7oC1gnm7Oxxt3ytR0Ob4/edit?usp=sharing" className="w-full lg:w-auto">
+              <a href="https://drive.google.com/drive/folders/1O_GrqJZzTeR7nDWOFs4be02dNpbgoGOm?usp=drive_link" className="w-full lg:w-auto">
               <button 
                 data-aos="fade-up"
                 data-aos-duration="800"

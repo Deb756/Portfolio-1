@@ -78,7 +78,7 @@ const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
 const WORDS = ["Computer Science Student", "Tech Enthusiast", "Java Devoloper", "A Learner"];
-const TECH_STACK = ["Java", "Spring Boot", "Spring MVC", "Hibernate", "JSP", "Servlet", "React", "Javascript", "Node.js", "Tailwind"];
+const TECH_STACK = ["Java", "Spring Boot", "Spring MVC", "Hibernate", "JSP", "Servlet", "React", "Javascript", "Tailwind"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/Deb756" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/debabrata-senapati-4717982b5/" },

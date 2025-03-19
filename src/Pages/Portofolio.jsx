@@ -116,84 +116,90 @@ export default function FullWidthTabs() {
   const projects = [
     {
       id: 1,
-      Img: "chat-app.png",
-      Title: "Real-Time Chat App",
-      Description: "A real-time chat application built with React and Firebase. Features include user authentication, message persistence, and real-time notifications.",
-      Link: "https://github.com/yourusername/chat-app",
-      TechStack: ["React", "Firebase", "Material UI"]
+      Img: "chat.avif",
+      Title: "FlowTalk",
+      Description: "A real-time chat application built with Java, Spring Boot, WebSockets, JDBC, MySql, Vite. Features include user authentication, message persistence, and real-time communication between users.",
+      Link: "https://github.com/Deb756/FlowTalk",
+      TechStack: ["Java","Spring Boot","Hibernate","Hibernate ORM","WebSockets","StompJS","MySql","Vite", "Tailwind", "Material UI"]
     },
     {
       id: 2,
-      Img: "blogging-app.png",
+      Img: "blogapp.jpg",
       Title: "BlogSpace",
       Description: "A full-featured blogging platform where users can create, edit, and publish content with a rich text editor and image uploads.",
-      Link: "https://github.com/yourusername/blogspace",
-      TechStack: ["React", "Node.js", "MongoDB"]
+      Link: "https://github.com/Deb756/BlogApp-V-R",
+      TechStack: ["Java","Spring Boot","Hibernate","Hibernate ORM","MySql","Vite", "Tailwind", "Material UI"]
     },
     {
       id: 3,
-      Img: "hospital-mgmt.png",
-      Title: "Hospital Management System",
-      Description: "A comprehensive system for managing hospital operations including patient records, appointments, billing and inventory.",
-      Link: "https://github.com/yourusername/hospital-system",
-      TechStack: ["React", "Express", "MySQL"]
+      Img: "textutil.avif",
+      Title: "Text-Formatter",
+      Description: "A web-based text formatter tool that allows users to format, style, and enhance text effortlessly. Features include text case conversion, indentation, spacing adjustments, and other formatting options for improved readability and presentation.",
+      Link: "https://deb756.github.io/textutils/",
+      TechStack: ["React", "Tailwind","TypeScript"]
     },
     {
       id: 4,
-      Img: "user-mgmt.png",
-      Title: "User Management System",
-      Description: "A secure authentication and user management solution with role-based access control and profile management features.",
-      Link: "https://github.com/yourusername/user-management",
-      TechStack: ["React", "Firebase Auth", "Tailwind CSS"]
+      Img: "news.avif",
+      Title: "Newsify",
+      Description: "A dynamic news application that delivers real-time updates across various categories, including politics, sports, technology, and entertainment. Features include user authentication, personalized news feeds, and an intuitive interface for seamless browsing",
+      Link: "https://github.com/Deb756/News-app-React",
+      TechStack: ["React", "Tailwind", "JSX","News Api"]
     },
     {
       id: 5,
-      Img: "e-notes.png",
-      Title: "E-Notes",
-      Description: "A feature-rich note-taking application with categorization, search functionality, and cloud synchronization.",
-      Link: "https://github.com/yourusername/e-notes",
-      TechStack: ["React", "Redux", "Firebase"]
+      Img: "userMng.avif",
+      Title: "User Management System",
+      Description: "A secure authentication and user management solution with role-based access control and profile management features.",
+      Link: "https://github.com/Deb756/User-Management-System-Proj1",
+      TechStack: ["Java","Servlet","JSP","JDBC","MySql","JavaScript","CSS"]
     },
     {
       id: 6,
-      Img: "ecommerce.png",
-      Title: "E-Commerce Platform",
-      Description: "A modern e-commerce solution with product catalog, shopping cart, payment integration, and order management.",
-      Link: "https://github.com/yourusername/ecommerce",
-      TechStack: ["React", "Node.js", "Stripe API"]
+      Img: "notes.avif",
+      Title: "E-Notes",
+      Description: "A digital notes application that enables users to create, organize, and manage their notes efficiently. Features include user authentication, rich text editing, note categorization, and secure cloud storage for easy access anytime, anywhere.",
+      Link: "https://github.com/Deb756/e-notes-application",
+      TechStack: ["Java","Spring MVC","Hibernate ","Hibernate ORM","MySql","JavaScript","CSS"]
     },
     {
       id: 7,
-      Img: "weather-app.png",
-      Title: "Weather Dashboard",
-      Description: "A weather forecasting application that provides real-time weather updates and forecasts based on location.",
-      Link: "https://github.com/yourusername/weather-app",
-      TechStack: ["React", "Weather API", "Chart.js"]
+      Img: "music.jpg",
+      Title: "Echos",
+      Description: "Echos is a web-based music player that offers seamless audio streaming with a sleek and user-friendly interface. Features include song categorization, and a responsive design for an immersive listening experience.",
+      Link: "https://github.com/Deb756/Music-player-website2",
+      TechStack: ["Html", "css", "Vanilla JavaScript"]
     },
     {
       id: 8,
-      Img: "task-manager.png",
-      Title: "Task Manager",
-      Description: "A productivity tool for managing tasks with features like due dates, priorities, and collaboration options.",
-      Link: "https://github.com/yourusername/task-manager",
-      TechStack: ["React", "Redux", "Firebase"]
-    }
+      Img: "pyChatbot.avif",
+      Title: "Chat-Bot",
+      Description: "Acess the AI ChatBot through your local terminal.",
+      Link: "https://github.com/Deb756/ChatBot-Py",
+      TechStack: ["Python", "Google-GenAi"]
+    },
   ];
 
   // Static certificate data - replace with your own certificates
   const certificates = [
-    { Img: "Photo1.png", Title: "Full Stack Web Development", Issuer: "Udemy" },
-    { Img: "certificate-react.jpg", Title: "React - The Complete Guide", Issuer: "Coursera" },
-    { Img: "certificate-javascript.jpg", Title: "Advanced JavaScript", Issuer: "freeCodeCamp" },
-    { Img: "certificate-nodejs.jpg", Title: "Node.js Masterclass", Issuer: "Udemy" },
-    { Img: "certificate-aws.jpg", Title: "AWS Certified Developer", Issuer: "Amazon Web Services" },
-    { Img: "certificate-ui-ux.jpg", Title: "UI/UX Design Fundamentals", Issuer: "Interaction Design Foundation" },
-    { Img: "certificate-mongodb.jpg", Title: "MongoDB for Developers", Issuer: "MongoDB University" },
-    { Img: "certificate-docker.jpg", Title: "Docker and Kubernetes", Issuer: "LinkedIn Learning" }
+    // { Img: "Photo1.png", Title: "Full Stack Web Development", Issuer: "Udemy" },
+    // { Img: "certificate-react.jpg", Title: "React - The Complete Guide", Issuer: "Coursera" },
+    // { Img: "certificate-javascript.jpg", Title: "Advanced JavaScript", Issuer: "freeCodeCamp" },
+    // { Img: "certificate-nodejs.jpg", Title: "Node.js Masterclass", Issuer: "Udemy" },
+    // { Img: "certificate-aws.jpg", Title: "AWS Certified Developer", Issuer: "Amazon Web Services" },
+    // { Img: "certificate-ui-ux.jpg", Title: "UI/UX Design Fundamentals", Issuer: "Interaction Design Foundation" },
+    // { Img: "certificate-mongodb.jpg", Title: "MongoDB for Developers", Issuer: "MongoDB University" },
+    // { Img: "certificate-docker.jpg", Title: "Docker and Kubernetes", Issuer: "LinkedIn Learning" }
   ];
 
   // Tech stacks (unchanged)
   const techStacks = [
+    { icon: "java.svg", language: "Java" },
+    { icon: "Spring_Boot.svg.png", language: "Spring Boot" },
+    { icon: "hibernate.svg", language: "Hibernate" },
+    { icon: "jsp.svg", language: "JSP" },
+    { icon: "mysql.svg", language: "MySql" },
+    { icon: "python.svg", language: "Python" },
     { icon: "html.svg", language: "HTML" },
     { icon: "css.svg", language: "CSS" },
     { icon: "javascript.svg", language: "JavaScript" },
@@ -202,10 +208,10 @@ export default function FullWidthTabs() {
     { icon: "vite.svg", language: "Vite" },
     { icon: "nodejs.svg", language: "Node JS" },
     { icon: "bootstrap.svg", language: "Bootstrap" },
-    { icon: "firebase.svg", language: "Firebase" },
+    { icon: "nextjs.svg", language: "NextJs" },
     { icon: "MUI.svg", language: "Material UI" },
     { icon: "vercel.svg", language: "Vercel" },
-    { icon: "SweetAlert.svg", language: "SweetAlert2" },
+    { icon: "mongo.svg", language: "MongoDb" },
   ];
 
   const handleChange = (event, newValue) => {
@@ -350,6 +356,7 @@ export default function FullWidthTabs() {
                       Description={project.Description}
                       Link={project.Link}
                       id={project.id}
+                      TechStack={project.TechStack}
                     />
                   </div>
                 ))}
