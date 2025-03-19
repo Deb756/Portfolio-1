@@ -47,11 +47,12 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id, TechStack
             {/* Display TechStack if available */}
             {TechStack && TechStack.length > 0 && (
               <div className="flex flex-wrap gap-2 pt-2">
+                <span className='text-sm font-semibold bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 bg-clip-text text-transparent'>Tech Stack :-</span>
                 {TechStack.map((tech, index) => (
                   <span 
                     key={index} 
                     className="px-2 py-1 text-xs font-medium rounded-md bg-white/10 text-blue-300 border border-blue-500/30"
-                  >
+                  >  
                     {tech}
                   </span>
                 ))}

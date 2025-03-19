@@ -132,15 +132,18 @@ const ContactPage = () => {
             </div>
 
             <form
-              action="https://formsubmit.co//npwdoxwak@emlhub.com"
               // action="#Contact"
+              // action="https://formsubmit.co//npwdoxwak@emlhub.com"
+              action="https://api.web3forms.com/submit"
               method="POST"
               onSubmit={handleSubmit}
               className="space-y-6"
             >
               {/* FormSubmit Configuration */}
-              <input type="hidden" name="_template" value="table" />
-              <input type="hidden" name="_captcha" value="false" />
+              {/* <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_captcha" value="false" /> */}
+               {/* <!-- add your email as a hidden `_to` field --> */}
+               <input type="hidden" name="access_key" value="23fed233-b349-4b1e-9292-a56f7f212a7b"/>
 
               <div
                 data-aos="fade-up"
