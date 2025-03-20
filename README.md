@@ -112,5 +112,5 @@ To configure Firebase in this project, follow these steps:
 
 ---
 
-Thank you for using and supporting this project!
+Thank you 😊!
 
